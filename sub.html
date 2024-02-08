@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLARY</title>
+    <link rel="stylesheet" href="sub.css">
+    <link rel="stylesheet" href="jquery.lightbox-0.5.css">
+    <script src="jquery-1.9.1.min.js"></script>
+    <script src="jquery.lightbox-0.5.js"></script>
+
+    <script>
+        $(".gnb2").click(function(){
+            $(this).find('.gnb2>li').toggle(500);
+        });
+
+    //$(document).ready(function() 웹문서 로딩 완료될 때까지 기다렸다가
+    /*    $('.gnb2-title>ul>li').click(function(){  // $() 요소 클릭하면
+            $('.sidepanel').hide(300);  // $() 이 요소를 숨겨라.
+        });*/
+
+    </script>
+</head>
+<body>
+    <div id="header">
+        <div class="gnb">
+            <div class="logo"><img src="images/bnr_logo_color.png" alt="logo" width="250"></div>
+            <ul class="gnb-inner">
+                <li><a href="main.html#about-us">ABOUT US</a></li>
+                <li><a href="main.html#bodyCon">SERVICE</a></li>
+                <li><a href="main.html#process">PROCESS</a></li>
+                <li><a href="main.html#contact-us">CONTACT US</a></li>
+                <li><a href="sub.html">GALLERY</a></li>
+            </ul>
+        </div>
+
+        <div class="t-navi" >
+            <a href="#"><img src="images/menu-burger.png" class="menu-burger" alt="menu-burger" width="44" onclick="openNav()"></a></div>
+            <div id="mySidepanel" class="sidepanel" >
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="images/x-icon.png" alt="x-icon"></a>
+                <ul class="gnb2">
+                    <li><a href="main.html#about-us">ABOUT US</a></li>
+                    <li><a href="main.html#bodyCon">SERVICE</a></li>
+                    <li><a href="main.html#process">PROCESS</a></li>
+                    <li><a href="main.html#contact-us">CONTACT US</a></li>
+                    <li><a href="sub.html">GALLERY</a></li>
+                </ul>
+            </div>
+        
+    </div>
+    <div class="gradation">
+        <p class="title">GALLERY</p>
+    </div>
+
+    <div id="jquery-overlay"></div>
+    <div id="jquery-lightbox">
+        
+    
+    </div>
+    <div class="gallery">
+        <a href="images/gall1.jpg " width="720px;"><img src="images/gall-s1.jpg" width="320"></a>
+        <a href="images/gall2.jpg"><img src="images/gall-s2.jpg" width="320"></a>
+        <a href="images/gall3.jpg"><img src="images/gall-s3.jpg" width="320"></a>
+        <a href="images/gall4.jpg"><img src="images/gall-s4.jpg" width="320"></a>
+        <a href="images/gall5.jpg"><img src="images/gall-s5.jpg" width="320"></a>
+        <a href="images/gall6.jpg"><img src="images/gall-s6.jpg" width="320"></a>
+        <a href="images/gall7.jpg"><img src="images/gall-s7.jpg" width="320"></a>
+        <a href="images/gall8.jpg"><img src="images/gall-s8.jpg" width="320"></a>
+        <a href="images/gall9.jpg"><img src="images/gall-s9.jpg" width="320"></a>
+        <a href="images/gall10.jpg"><img src="images/gall-s10.jpg" width="320"></a>
+        <a href="images/gall11.jpg"><img src="images/gall-s11.jpg" width="320"></a>
+        <a href="images/gall12.jpg"><img src="images/gall-s12.jpg" width="320"></a>
+        <a href="images/gall13.jpg"><img src="images/gall-s13.jpg" width="320"></a>
+        <a href="images/gall14.jpg"><img src="images/gall-s14.jpg" width="320"></a>
+        <a href="images/gall15.jpg"><img src="images/gall-s15.jpg" width="320"></a>
+        <a href="images/gall16.jpg"><img src="images/gall-s16.jpg" width="320"></a>
+        <a href="images/gall17.jpg"><img src="images/gall-s17.jpg" width="320"></a>
+        <a href="images/gall18.jpg"><img src="images/gall-s18.jpg" width="320"></a>
+        <a href="images/gall19.jpg"><img src="images/gall-s19.jpg" width="320"></a>
+        <a href="images/gall20.jpg"><img src="images/gall-s20.jpg" width="320"></a>
+        <a href="images/gall21.jpg"><img src="images/gall-s21.jpg" width="320"></a>
+        <a href="images/gall22.jpg"><img src="images/gall-s22.jpg" width="320"></a>
+        <a href="images/gall23.jpg"><img src="images/gall-s23.jpg" width="320"></a>
+        <a href="images/gall24.jpg"><img src="images/gall-s24.jpg" width="320"></a>
+        <a href="images/gall25.jpg"><img src="images/gall-s25.jpg" width="320"></a>
+    </div>
+    <div class="gallery-m">
+        <img src="images/gall-s1.jpg" width="320">
+        <img src="images/gall-s2.jpg" width="320">
+        <img src="images/gall-s3.jpg" width="320">
+        <img src="images/gall-s4.jpg" width="320">
+        <img src="images/gall-s5.jpg" width="320">
+        <img src="images/gall-s6.jpg" width="320">
+        <img src="images/gall-s7.jpg" width="320">
+        <img src="images/gall-s8.jpg" width="320">
+        <img src="images/gall-s9.jpg" width="320">
+        <img src="images/gall-s10.jpg" width="320">
+        <img src="images/gall-s11.jpg" width="320">
+        <img src="images/gall-s12.jpg" width="320">
+        <img src="images/gall-s13.jpg" width="320">
+        <img src="images/gall-s14.jpg" width="320">
+        <img src="images/gall-s15.jpg" width="320">
+        <img src="images/gall-s16.jpg" width="320">
+        <img src="images/gall-s17.jpg" width="320">
+        <img src="images/gall-s18.jpg" width="320">
+        <img src="images/gall-s19.jpg" width="320">
+        <img src="images/gall-s20.jpg" width="320">
+        <img src="images/gall-s21.jpg" width="320">
+        <img src="images/gall-s22.jpg" width="320">
+        <img src="images/gall-s23.jpg" width="320">
+        <img src="images/gall-s24.jpg" width="320">
+        <img src="images/gall-s25.jpg" width="320">
+    </div>
+
+    <script>
+        $(function(){
+            $('.gallery>a').lightBox({//.lightBox();=해당되는 플러그인 이름
+                //플러그인에서 수정하고 싶은 내용 있으면 여기에 긁어다 넣고 내용수정.
+            });
+        });
+    </script>
+
+    <footer>
+            
+        <div class="dl">
+            <p>업체명: B&R Design</p>
+            <p>대표: 김민호</p>
+            <p>주소: 인천 서구 원적로 47번길 3-2, 지층 1호</p>
+            <p>사업자 등록번호: 484-24-01561</p>
+            <p>대표전화: 010-8312-0257</p>
+            <p>이메일: bnrdesign@naver.com</p>
+        </div>
+        <br>
+        <p class="footCop">Copyright ⓒ B&R Design All rights reserved.</p>
+    </footer>
+
+    <script>//자바스크립트
+        function openNav() {
+        document.getElementById("mySidepanel").style.width = "70%";
+        }
+        function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+        }
+    </script>
+</body>
+</html>
